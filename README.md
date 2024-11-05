@@ -63,8 +63,7 @@ Follow these steps to set up the project locally:
 
 ## Features
 
-- User management with CRUD operations
-- Role-based access control
+- User Create with profile image
 - Profile image upload and management
 - Form validation with real-time feedback
 - AJAX-based form submissions for smooth user experience
