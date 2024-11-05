@@ -26,6 +26,9 @@ class UserController extends Controller
             'description' => 'required',
             'role_id' => 'required|exists:roles,id',
             'profile_image' => 'required|image|mimes:jpeg,png,jpg|max:2048'
+        ], [
+            'phone.regex' => 'Please enter a valid Indian phone number',
+            'profile_image.mimes' => 'Profile image must be a JPEG, PNG or JPG file'
         ]);
 
         if ($validator->fails()) {

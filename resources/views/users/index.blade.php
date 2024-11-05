@@ -13,13 +13,13 @@
                 <form id="userForm" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label class="form-label">Name</label>
-                        <input type="text" class="form-control" name="name" id="name">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
                         <span class="text-danger" id="nameError"></span>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Email</label>
-                        <input type="email" class="form-control" name="email" id="email">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email">
                         <span class="text-danger" id="emailError"></span>
                     </div>
 
@@ -27,14 +27,14 @@
                         <label class="form-label">Phone</label>
                         <div class="input-group">
                             <span class="input-group-text">+91</span>
-                            <input type="text" class="form-control" name="phone" id="phone">
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter your phone number (without country code)">
                         </div>
                         <span class="text-danger" id="phoneError"></span>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Description</label>
-                        <textarea class="form-control" name="description" id="description"></textarea>
+                        <textarea class="form-control" name="description" id="description" placeholder="Enter your description"></textarea>
                         <span class="text-danger" id="descriptionError"></span>
                     </div>
 
