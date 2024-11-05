@@ -2,6 +2,19 @@
 
 A Laravel application for managing users and roles with image upload functionality.
 
+## Features
+
+- User Create with profile image
+- Profile image upload and management
+- Form validation with real-time feedback
+- AJAX-based form submissions for smooth user experience
+
+## Technologies Used
+
+- Laravel 11.9
+- PHP 8.2
+- SQLite
+
 ## Setup Instructions
 
 Follow these steps to set up the project locally:
@@ -60,19 +73,6 @@ Follow these steps to set up the project locally:
     php artisan serve
     ```
     Access the application at `http://localhost:8000`
-
-## Features
-
-- User Create with profile image
-- Profile image upload and management
-- Form validation with real-time feedback
-- AJAX-based form submissions for smooth user experience
-
-## Technologies Used
-
-- Laravel 11.x
-- PHP 8.2
-- SQLite
 
 ## Contributing
 
